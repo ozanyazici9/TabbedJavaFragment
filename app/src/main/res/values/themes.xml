@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TabbedJavaFragment" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.TabbedJavaFragment" parent="Base.Theme.TabbedJavaFragment" />
+
+    <style name="Theme.TabbedJavaFragment.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.TabbedJavaFragment.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.TabbedJavaFragment.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
